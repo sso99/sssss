@@ -22,6 +22,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+
+
+        //git hub done
         val btnext = findViewById<Button>(R.id.btn_next)
         val btnprev = findViewById<Button>(R.id.btn_prev)
         val idview=findViewById<TextView>(R.id.tv_2)
