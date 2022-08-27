@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="next">Next</string>
+    <string name="preavious">preavious</string>
+
+
+    <string name="add_new">Add New</string>
+
+
+    <string name="std_name">Student name</string>
+    <string name="ID">Identification</string>
+    <string name="bod">Birthday</string>
+    <string name="get_age">Age</string>
+    <string name="university">Uni</string>
+    <string name="major">Major</string>
+    <string name="email">Email</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

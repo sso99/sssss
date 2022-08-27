@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Studentform">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:layout_weight="0.3"
+            android:textSize="20sp" />
+
+        <EditText
+
+            android:id="@+id/edt_stname"
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"></EditText>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="ID:"
+            android:layout_weight="0.3"
+            android:textSize="20sp" />
+
+        <EditText
+
+            android:id="@+id/edt"
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+
+            android:layout_height="wrap_content"></EditText>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tv_3"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="0.3"
+            android:text="Birthday:"
+            android:textSize="20sp" />
+
+        <EditText
+
+            android:id="@+id/edt1"
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"></EditText>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/tv_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Age:"
+            android:layout_weight="0.3"
+            android:textSize="20sp" />
+
+        <EditText
+
+            android:id="@+id/edt_stnam"
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+
+            android:layout_height="wrap_content"></EditText>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/tv_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="University:"
+            android:layout_weight="0.3"
+            android:textSize="20sp" />
+
+        <EditText
+
+            android:id="@+id/edt_stna"
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"></EditText>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/tv_6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Major:"
+            android:layout_weight="0.3"
+            android:textSize="20sp" />
+
+        <EditText
+
+            android:id="@+id/edt_stn"
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"></EditText>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/tv_7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:layout_weight="0.3"
+            android:textSize="20sp" />
+
+        <EditText
+
+            android:id="@+id/edt_st"
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"></EditText>
+    </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <TableRow
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textSize="15sp" />
+    </TableRow>
+
+</TableLayout>
